@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+#siteTitle{color:#5a6e54;
+  font-family:'Raleway', sans-serif;
+text-align:center;
+font-size:80px;}
+.divider{
+ background-color:#de8731;
+ height:1px;
+ border-width: 0;
+ width:90%;
+ text-align: center;
+}
+#navBar{
+  padding-top:30px;
+  padding-bottom:10px;
+  display:flex;
+}
+.navList{
+ list-style-type:none;
+margin:auto;
+font-family:'Raleway', sans-serif;
+font-size:20px;
+color:#de8731;
+}
+.navList a{text-decoration:none;
+color:inherit;}
+.sectionTitle{
+  color:#5a6e54;
+  font-family:'Raleway', sans-serif;
+  padding:5%;
+  text-align:center;
+}
+.image{width:30%;margin-left:2.5%;}
+.button{
+  background-color:#fce3ca;
+  font-family:'Raleway', sans-serif;
+  font-size:20px;
+  color:#5a6e54;
+  width:20%;
+ margin:5% 40% 2% 40%;
+  border:none;
+  height:50px;
+}
+.button a{text-decoration:none;color:inherit;}
+.button:hover{background-color:#5a6e54;color:#fce3ca}
+.foodList{
+ list-style-type:none;
+text-align:center;
+font-family:'Raleway', sans-serif;
+font-size:20px;
+color:#de8731;
+}
+.foodList a{
+color:inherit;}
+.foodList a:hover{color:#5a6e54}
+.text{
+  font-family:'Raleway', sans-serif;
+  font-size:16px;
+  color:#5a6e54;
+  padding-bottom:20px;
+  width:60%;
+padding-left:20%;
+  text-align:center;
+  line-height:30px;
+}
+#aboutSection>p{
+  font-family:'Raleway', sans-serif;
+  font-size:16px;
+  color:#5a6e54;
+line-height:25px;
+padding-left:15%;
+padding-top:10%;
+width:30%;}
+#aboutSection>img{
+width:50%
+}
+#aboutSection{
+  display:flex;
+}
+.text>a{
+    color:inherit;
+}
